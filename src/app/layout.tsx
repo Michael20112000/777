@@ -15,6 +15,8 @@ export const metadata: Metadata = {
 }
 
 const RootLayout: FC<PropsWithChildren> = props => {
+  const unused = 42
+
   return (
     <html lang='en'>
       <body className={`${geistSans.variable}`}>{props.children}</body>
